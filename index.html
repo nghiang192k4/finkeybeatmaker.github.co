@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>Finkey BeatMaker Quantitative Trading System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/finkeylogo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">FEES</a></li>
+                    <li><a href="">GUIDE</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="social-media">
+            <a href="#">FACEBOOK</a>
+            <a href="#">INSTAGRAM</a>
+            <a href="#">TELEGRAM</a>
+        </div>
+        <div class="text-box">
+            <h1>Finkey - <span class="auto-input"></span></h1>
+            <p>Forex - Commodity - Index - Crypto - US Stock</p>
+            <a href="" class="hero-btn">Visit Us to know more about our Quantitative Trading System!!!</a>
+        </div>
+    </section>
+
+    <section class="SERVICE">
+        <h1>Our Service includes</h1>
+        <p>COPYTRADE AND AUTOMATIC SIGNAL from our BEATMAKER Robot</p>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>COPYTRADE</h3>
+                <p>CHEAP, SMART AND EFFECTIVE.</p>
+            </div>
+            <div class="service-col">
+                <h3>AUTOMATIC SIGNAL</h3>
+                <p>POWERFUL AND CONVENIENT WITH 24/24 of triggering signal from an EU server.</p>
+            </div>
+            <div class="service-col">
+                <h3>CUSTOMER SERVICE</h3>
+                <p>QUICK AND HELPFUL with several professional staffs. We can support you to eliminate the orders with potential risks and give you rewarding advices. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="robot">
+        <h1>Our Quantitative Trading System</h1>
+        <p>The combination between the most unique trading method in the meantime and the modern identification of maker's Smart Money Flow.
+        </p>
+        <div class="row">
+            <div class="robot-col">
+                <img src="images/robot.jpg">
+                <div class="layer">
+                    <h3>Automatic Hourly Signal</h3>
+                </div>
+            </div>
+            <div class="robot-col">
+                <img src="images/chart.jpg">
+                <div class="layer">
+                    <h3>Quantitative Algorism</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll For Our Various Services and Automatic Signals <br> Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getelementbyid("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "=200px";
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: [" Successful Financial Key.", " Professional Services.", "Volatility Trading Method."],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+
+
+
+</html>
